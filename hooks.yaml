@@ -1,0 +1,9 @@
+-   id: imageoptim
+    name: imageoptim
+    entry: imageoptim
+    language: node
+    files: \.(png|jpeg|jpg|gif)$
+    args: []
+
+    # Use additional_dependencies to install the actual node package
+    minimum_pre_commit_version: 0.7.0
