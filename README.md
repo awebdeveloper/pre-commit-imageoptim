@@ -1,4 +1,4 @@
-Pre-commit hook for Imageoptim-cli For Mac  
+Pre-commit hook for Imageoptim-cli on Mac  
 ==========================================
 
 This is a imageoptim-cli hook for [pre-commit](https://github.com/pre-commit/pre-commit). This optimised images on commit.
@@ -21,6 +21,16 @@ Finally add this to your `.pre-commit-config.yaml`:
  ```
 
  Now everytime you commit a png/jpg file. It will run imageoptim-cli on this and optimise the file.
+
+### FAQ's
+  
+  **1.** Why does pre-commit say failed everytime this changes the file.
+
+  **A.** This is how pre-commit works. You need to just add the files again and commit. This is done so that you can verify the changes.
+
+  **1.** Why only mac.
+
+  **A.** Imageoptim is only on mac, if and when it does we will support it.
 
  ### Links
  - For pre-commit: see https://github.com/pre-commit/pre-commit
