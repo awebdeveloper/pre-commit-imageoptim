@@ -4,11 +4,13 @@ Pre-commit hook for Imageoptim-cli on Mac
 This is a imageoptim-cli hook for [pre-commit](https://github.com/pre-commit/pre-commit). This optimised images on commit.
 
 
-### Using styleint with pre-commit
+### Using imageoptim with pre-commit
 
 - To use this you first need to install pre-commit(see links below).
-- Then create a pre-commit config file and also a stylelint config file in the root of your project.
+- Then create a pre-commit config file.
 - Run `pre-commit install` from the root of your project
+- Download ImageOptim for Mac.
+- Additionally download ImageAlpha and JPEGmini for Mac
 
 Finally add this to your `.pre-commit-config.yaml`:
 
