@@ -15,6 +15,7 @@ Finally add this to your `.pre-commit-config.yaml`:
 ```yaml
    -   repo: https://github.com/awebdeveloper/pre-commit-imageoptim
        sha: '' # Use the sha or tag you want to point at like 0.0.1
+       args: ['--quit', '--no-color'] # You can specify more like '--jpeg-mini', '--image-alpha'
        hooks:
        -   id: imageoptim
            additional_dependencies: ['imageoptim-cli']
@@ -23,7 +24,7 @@ Finally add this to your `.pre-commit-config.yaml`:
  Now everytime you commit a png/jpg file. It will run imageoptim-cli on this and optimise the file.
 
 ### FAQ's
-  
+
   **1.** Why does pre-commit say failed everytime the images are changed by the file.
 
   **A.** This is how pre-commit works. You need to just add the files again and commit. This is done so that you can verify the changes.
