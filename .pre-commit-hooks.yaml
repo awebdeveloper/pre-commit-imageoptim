@@ -3,6 +3,7 @@
     entry: imageoptim
     language: node
     files: \.(png|jpeg|jpg|gif)$
+    description: An hook to run image-optimin, jpegmin to optimise images
     args: []
 
     # Use additional_dependencies to install the actual node package
