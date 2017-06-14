@@ -13,7 +13,7 @@ This is a imageoptim-cli hook for [pre-commit](https://github.com/pre-commit/pre
 Finally add this to your `.pre-commit-config.yaml`:
 
 ```yaml
-   -   repo: https://github.com/awebdeveloper/pre-commit-imageopti
+   -   repo: https://github.com/awebdeveloper/pre-commit-imageoptim
        sha: '' # Use the sha or tag you want to point at like 0.0.1
        hooks:
        -   id: imageoptim
@@ -24,13 +24,13 @@ Finally add this to your `.pre-commit-config.yaml`:
 
 ### FAQ's
   
-  **1.** Why does pre-commit say failed everytime this changes the file.
+  **1.** Why does pre-commit say failed everytime the images are changed by the file.
 
   **A.** This is how pre-commit works. You need to just add the files again and commit. This is done so that you can verify the changes.
 
-  **1.** Why only mac.
+  **2.** Why only mac.
 
-  **A.** Imageoptim is only on mac, if and when it does we will support it.
+  **A.** Imageoptim is only on mac, if and when it does add other platform we will support it.
 
  ### Links
  - For pre-commit: see https://github.com/pre-commit/pre-commit
