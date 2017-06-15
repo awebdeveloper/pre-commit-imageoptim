@@ -1,6 +1,6 @@
 -   id: imageoptim
     name: imageoptim
-    entry: bash -c 'echo "$@"; exit 0' --
+    entry: bash -c 'echo "$@" | imageoptim --quit --no-color --image-alpha --min-quality=60' --
     language: node
     files: \.(png|jpeg|jpg|gif)$
     description: An hook to run image-optimin, jpegmin to optimise images
