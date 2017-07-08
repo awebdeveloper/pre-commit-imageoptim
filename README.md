@@ -17,7 +17,6 @@ Finally add this to your `.pre-commit-config.yaml`:
 ```yaml
    -   repo: https://github.com/awebdeveloper/pre-commit-imageoptim
        sha: '' # Use the sha or tag you want to point at like 0.0.1
-       args: ['--quit', '--no-color'] # You can specify more like '--jpeg-mini', '--image-alpha'
        hooks:
        -   id: imageoptim
            additional_dependencies: ['imageoptim-cli']
