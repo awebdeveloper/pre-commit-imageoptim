@@ -34,6 +34,10 @@ PS: These are for version 2.3.0 visit https://pre-commit.com/#2-add-a-pre-commit
   **2.** Why only mac.
 
   **A.** Imageoptim is only on mac, if and when it does add other platform we will support it.
+  
+  **2.** How to pass Pass extra args
+  **A.** Read precommit docs on how to use args property.
+  
 
  ### Links
  - For pre-commit: see https://github.com/pre-commit/pre-commit
