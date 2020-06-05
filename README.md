@@ -16,11 +16,12 @@ Finally add this to your `.pre-commit-config.yaml`:
 
 ```yaml
    -   repo: https://github.com/awebdeveloper/pre-commit-imageoptim
-       sha: '' # Use the sha or tag you want to point at like 0.0.1
+       rev: '' # Use the sha or tag you want to point at like 0.0.1
        hooks:
        -   id: imageoptim
            additional_dependencies: ['imageoptim-cli']
  ```
+PS: These are for version 2.3.0 visit https://pre-commit.com/#2-add-a-pre-commit-configuration for latest config syntax or for config syntax specific to your version
 
  Now everytime you commit a png/jpg file. It will run imageoptim-cli on this and optimise the file.
 
